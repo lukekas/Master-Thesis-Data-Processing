@@ -1,0 +1,29 @@
+[project]
+name = "own-processing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "branca>=0.8.2",
+    "fastapi-cache2>=0.2.2",
+    "fastapi[standard]>=0.128.0",
+    "folium>=0.20.0",
+    "geopandas>=1.1.2",
+    "mapclassify>=2.10.0",
+    "networkx>=3.6.1",
+    "osmnx>=2.0.7",
+    "pillow>=12.1.0",
+    "pybdshadow>=0.3.5",
+    "pytest-cov>=7.0.0",
+    "rasterio>=1.5.0",
+    "scipy>=1.17.0",
+    "shapely>=2.1.2",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "pytest>=8.0.0",
+]

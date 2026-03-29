@@ -1,0 +1,2 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+"VGN","VGN","http://www.vgn.de","Europe/Berlin","DE","+49 (0)911 27075-99"

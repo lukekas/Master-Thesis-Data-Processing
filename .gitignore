@@ -1,0 +1,15 @@
+venv
+.venv
+cache
+results/*
+!results/*.p
+!results/*.geojson
+!results/*.parquet
+__pycache__/
+.ipynb_checkpoints/
+heidelberg/
+quarters/
+download_20251102_120655.zip
+heidelberg.zip
+data/vienna/*
+!data/vienna/download-dgm-dsm.py
